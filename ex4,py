@@ -1,0 +1,12 @@
+#Escreva uma função que receba um dicionário como entrada e retorna duas listas. Uma com chave e outra com valor
+def dicionario(dicionario):
+    chaves = list(dicionario.keys())
+    valores = list(dicionario.values())
+    return chaves, valores
+ 
+
+meu_dicionario = {"Baji": 10, "Kuroo": 11 , "Cheng": 12}
+chaves, valores = dicionario(meu_dicionario)
+
+print("Chaves:", chaves)
+print("Valores:", valores)
